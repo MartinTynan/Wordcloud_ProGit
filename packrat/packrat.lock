@@ -1,0 +1,56 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.9.2
+RVersion: 3.5.0
+Repos: CRAN=https://cran.ma.imperial.ac.uk
+
+Package: BH
+Source: CRAN
+Version: 1.66.0-1
+Hash: 4cc8883584b955ed01f38f68bc03af6d
+
+Package: NLP
+Source: CRAN
+Version: 0.1-11
+Hash: fb5df0f46574cb600b9ea437b200450e
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+Hash: c0d56cd15034f395874c870141870c25
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.17
+Hash: d2eff4634ccd7aca030c540ad805ac4a
+
+Package: SnowballC
+Source: CRAN
+Version: 0.5.1
+Hash: 6f14c834eea7672f25b83d9ba35b85ca
+
+Package: packrat
+Source: CRAN
+Version: 0.4.9-2
+Hash: 47dbd4e04dcd01da02a2021203205cb1
+
+Package: slam
+Source: CRAN
+Version: 0.1-43
+Hash: 2ddf8221c57013af684eca323f761826
+
+Package: tm
+Source: CRAN
+Version: 0.7-5
+Hash: 86298f09640ca58053d15ebb2a517bb7
+Requires: BH, NLP, Rcpp, slam, xml2
+
+Package: wordcloud
+Source: CRAN
+Version: 2.6
+Requires: RColorBrewer, Rcpp
+
+Package: xml2
+Source: CRAN
+Version: 1.2.0
+Hash: a9af563f148c0170654bd9b4bb974ba7
+Requires: Rcpp
